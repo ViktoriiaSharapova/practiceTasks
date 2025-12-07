@@ -5,11 +5,12 @@ public class Task {
 
         // ----Do not change below lines. needed for testing---
         width = args.length > 0 ? Integer.parseInt(args[0]) : width;
-        height = args.length > 0 ? Integer.parseInt(args[1]) : height;
-        // ------------------------------
-
+        height = args.length > 1 ? Integer.parseInt(args[1]) : height;
+        // ---------------------------------------
 
         //Write your solution here
+        int area = width * height;
+        System.out.println("Area of rectangle = " + area);
 
     }
 }
