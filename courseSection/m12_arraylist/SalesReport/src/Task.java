@@ -18,7 +18,14 @@ public class Task {
     public static boolean calculateSales(ArrayList<Double> sales) {
 
         //Write your solution here
+        double total = 0;
 
+        for (double amount : sales) {
+            if (amount < 30000) {
+                return false;
+            }
+            total += amount;
+        }
+        return total >= 5000000;
     }
-
 }

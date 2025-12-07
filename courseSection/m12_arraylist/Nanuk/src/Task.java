@@ -16,7 +16,19 @@ public class Task {
     public static boolean hunt(ArrayList<String> result, int wayStones, int boast) {
 
         //Write your solution here
+        int food = 0;
+        int bears = 0;
 
+        for (String item : result) {
+            if (item.equals("nanuk")) {
+                bears++;
+            } else {
+                food += Integer.parseInt(item);
+            }
+        }
+        if (bears > wayStones) {
+            return false;
+        }
+        return food >= boast;
     }
-
 }

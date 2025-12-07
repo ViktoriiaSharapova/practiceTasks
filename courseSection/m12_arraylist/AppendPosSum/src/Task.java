@@ -11,7 +11,17 @@ public class Task {
     public static ArrayList<Integer> appendPosSum(ArrayList<Integer> list) {
 
         //Write your solution here
+        int sum = 0;
 
+        for (int num : list) {
+            if (num > 0) {
+                sum += num;
+            }
+        }
+
+        list.add(sum);
+
+        return list;
     }
 
 }

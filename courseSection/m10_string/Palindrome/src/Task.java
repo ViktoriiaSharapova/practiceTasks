@@ -9,7 +9,17 @@ public class Task {
     public static boolean isPalindrome(String str) {
 
         //Write your solution here
+        int left = 0;
+        int right = str.length() - 1;
 
+
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
         return true;
     }
 
@@ -22,7 +32,11 @@ public class Task {
         int original = num;
 
        //Write your solution here
-
+        while (num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;
+        }
         return original == reversed;
     }
 

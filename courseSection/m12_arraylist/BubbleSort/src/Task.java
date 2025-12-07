@@ -11,7 +11,8 @@ public class Task {
     public static ArrayList<Integer> sort(ArrayList<Integer> nums) {
 
         //Write your solution here
-
+        nums.sort(null);   // Sorts in natural ascending order
+        return nums;
     }
 
 }

@@ -14,6 +14,19 @@ public class Task {
     public static int refuels(ArrayList<Integer> deliveries, int gasTank){
 
         //Write your solution here
+        int refuels = 0;
+        int currentGas = gasTank;
+
+        for (int delivery : deliveries) {
+
+            if (delivery > currentGas) {
+                // Not enough gas → refuel
+                refuels++;
+                currentGas = gasTank;
+            }
+            currentGas -= delivery;
+        }
+        return refuels;
 
     }
 

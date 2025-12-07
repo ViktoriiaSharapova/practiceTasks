@@ -13,7 +13,17 @@ public class Task {
     public static ArrayList<Integer> getSum(ArrayList<String> digits) {
 
         //Write your solution here
+        ArrayList<Integer> result = new ArrayList<>();
 
+        for (String str : digits) {
+            int sum = 0;
+
+            for (char ch : str.toCharArray()) {
+                sum += ch - '0';   // convert digit character to int
+            }
+            result.add(sum);
+        }
+        return result;
     }
 
 }
