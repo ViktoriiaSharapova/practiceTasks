@@ -3,8 +3,8 @@ files:
   - name: src/Task.java
     visible: true
     placeholders:
-      - offset: 74
-        length: 19
+      - offset: 167
+        length: 0
         placeholder_text: //Call methods here
         initial_state:
           length: 19
@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: PgXfA4VgREuotEbMR2AJD5C+6fEqjpq0AlmxNunHDWQ=
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 143
+      - offset: 215
         length: 26
         placeholder_text: //Write your solution here
         initial_state:
@@ -23,10 +23,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: RjXLuYtrIeFx8t2faS4BW/2gQboG0zmqD4I7aeKaQbM=
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 220
-        length: 26
+      - offset: 257
+        length: 25
         placeholder_text: //Write your solution here
         initial_state:
           length: 26
@@ -34,11 +34,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: hPCGMtq5LjZmA9ye76lrFHtnPg2skrYXe5kpw7W5evA=
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/Tests.java
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 07 Dec 2025 17:37:13 UTC"
 record: -1

@@ -10,6 +10,13 @@ public class Task {
         String unique = "";
 
         //Write your solution here
+        for (int i = 0; i < str.length(); i++) {
+            String eachChar = str.substring(i, i + 1);
+            if (!unique.contains(eachChar)) {
+                unique += eachChar;
+            }
+        }
+
 
         return unique;
     }

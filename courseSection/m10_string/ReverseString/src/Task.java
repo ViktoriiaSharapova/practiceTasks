@@ -8,6 +8,11 @@ public class Task {
     public static String reverse(String str){
 
         //Write your solution here
+        String reversed = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reversed += str.charAt(i);
+        }
+        return reversed;
 
     }
 

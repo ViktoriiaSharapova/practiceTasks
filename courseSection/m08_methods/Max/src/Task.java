@@ -8,6 +8,7 @@ public class Task {
     public static int max(int n, int n2){
 
         //Write your solution here
+        return (n > n2) ? n : n2;
 
     }
 
