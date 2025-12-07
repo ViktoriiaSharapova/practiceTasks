@@ -5,10 +5,15 @@ public class Task {
 
         // ----Do not change below lines. needed for testing---
         currentPrice = args.length > 0 ? Double.parseDouble(args[0]) : currentPrice;
-        discountPercentage = args.length > 0 ? Double.parseDouble(args[1]) : discountPercentage;
-        //--------------------------------
+        discountPercentage = args.length > 1 ? Double.parseDouble(args[1]) : discountPercentage;
+        //-----------------------------------------------------
 
         //Write your solution here
+        double discountAmount = currentPrice * (discountPercentage / 100.0);
+        currentPrice -= discountAmount;
+
+        System.out.println("discountAmount = " + discountAmount);
+        System.out.println("currentPrice = " + currentPrice);
 
     }
 }

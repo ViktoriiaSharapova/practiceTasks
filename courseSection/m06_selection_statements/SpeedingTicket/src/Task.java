@@ -12,7 +12,13 @@ public class Task {
         int ticketAmount = 0;
 
         //Write your solution here
-
+        if (currentSpeed > speedLimit) {
+            int milesOverLimit = currentSpeed - speedLimit;
+            ticketAmount = milesOverLimit * 6 + 51;
+            System.out.println("ticketAmount = $" + ticketAmount);
+        } else {
+            System.out.println("Not speeding");
+        }
 
     }
 }

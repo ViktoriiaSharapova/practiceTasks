@@ -10,6 +10,10 @@ public class Task {
         //--------------------------------
 
         //Write your solution here
-
+        if (a > b) {
+            System.out.println(a + " is greater");
+        } else {
+            System.out.println(b + " is greater");
+        }
     }
 }

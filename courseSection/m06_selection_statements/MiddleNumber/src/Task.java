@@ -13,6 +13,14 @@ public class Task {
         int middle;
 
         //Write your solution here
+        if ((first > second && first < third) || (first > third && first < second)) {
+            middle = first;
+        } else if ((second > first && second < third) || (second > third && second < first)) {
+            middle = second;
+        } else {
+            middle = third;
+        }
 
+        System.out.println("middle number = " + middle);
     }
 }

@@ -11,6 +11,11 @@ files:
   - name: src/Main.java
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 07 Dec 2025 16:49:05 UTC"
 record: -1
+selected_options:
+  - 1
 local_check: true

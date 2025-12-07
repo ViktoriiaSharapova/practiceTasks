@@ -3,7 +3,7 @@ files:
   - name: src/Task.java
     visible: true
     placeholders:
-      - offset: 278
+      - offset: 365
         length: 26
         placeholder_text: //Write your solution here
         initial_state:
@@ -12,11 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: LTEWJTGN8AY+fzmNZ/0XiyNOg8iFLut+SouL2wY4cPHXKhCSDLOgvNscQlU/hJPBTQKP62LfdLSVkQfze0ZoamGb6NISjzr7s2xXYOelOTA=
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/Tests.java
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 07 Dec 2025 16:45:43 UTC"
 record: -1

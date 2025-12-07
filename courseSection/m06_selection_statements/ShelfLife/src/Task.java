@@ -10,7 +10,10 @@ public class Task {
         //--------------------------------
 
         //Write your solution here
-
+        if (outsideTemperature > 90) {
+            shelfLife -= 4;
+        }
+        System.out.println("shelfLife = " + shelfLife);
 
     }
 }
